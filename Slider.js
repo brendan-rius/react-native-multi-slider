@@ -3,9 +3,6 @@
 var React = require('react');
 var ReactNative = require('react-native');
 var {
-  PropTypes
-} = React;
-var {
   StyleSheet,
   PanResponder,
   View,
@@ -14,7 +11,7 @@ var {
 
 var converter = require('./converter.js');
 var mockProps = require('./mockProps.js');
-
+import PropTypes from 'prop-types';
 
 
 var sliderProps = {
